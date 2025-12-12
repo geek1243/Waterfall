@@ -1,4 +1,4 @@
-From bd42f3205d402ad06118daefc04ff6174a0ae1e6 Mon Sep 17 00:00:00 2001
+From 86f3846002f7b64aafab38c9108d6d932fec6a2b Mon Sep 17 00:00:00 2001
 From: Techcable <Techcable@techcable.net>
 Date: Thu, 19 May 2016 17:09:22 -0600
 Subject: [PATCH] Allow invalid packet ids for forge servers
@@ -72,7 +72,7 @@ index 690e1447..53443ddc 100644
                  throw new BadPacketException( "Packet with id " + id + " outside of range" );
              }
 diff --git a/proxy/src/main/java/net/md_5/bungee/ServerConnector.java b/proxy/src/main/java/net/md_5/bungee/ServerConnector.java
-index 6ed9e8b3..509f07c3 100644
+index 5b1ee946..04d5dab1 100644
 --- a/proxy/src/main/java/net/md_5/bungee/ServerConnector.java
 +++ b/proxy/src/main/java/net/md_5/bungee/ServerConnector.java
 @@ -246,6 +246,12 @@ public class ServerConnector extends PacketHandler
@@ -87,7 +87,7 @@ index 6ed9e8b3..509f07c3 100644
 +
          bungee.getPluginManager().callEvent( event );
  
-         ch.write( BungeeCord.getInstance().registerChannels( user.getPendingConnection().getVersion() ) );
+         // Already sent after config start
 diff --git a/proxy/src/main/java/net/md_5/bungee/entitymap/EntityMap.java b/proxy/src/main/java/net/md_5/bungee/entitymap/EntityMap.java
 index 77b27c6f..26c1e1be 100644
 --- a/proxy/src/main/java/net/md_5/bungee/entitymap/EntityMap.java
@@ -106,5 +106,5 @@ index 77b27c6f..26c1e1be 100644
          {
              rewriteInt( packet, oldId, newId, readerIndex + packetIdLength );
 -- 
-2.51.0
+2.43.0
 
