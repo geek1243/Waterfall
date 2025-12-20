@@ -2,9 +2,9 @@ Waterfall
 =========
 
 > [!CAUTION]
-> This project has reached end of life and is no longer maintained.
+> This project has reached end of life and is no longer maintained by papermc, instead it has been picked up by server owners and plugin dev's like me.
 > I am maintaining this fork for my server network [AmpCraft](https://www.ampcraft.org/), I cant promise long term support but i will continue to try my best.
-> We recommend you transition to [Velocity](https://papermc.io/software/velocity). For more information, see the [announcement](https://forums.papermc.io/threads/1088/).
+> Paper recommends you transition to [Velocity](https://papermc.io/software/velocity). For more information, see the official paper [announcement](https://forums.papermc.io/threads/1088/).
 
 Waterfall is a fork of the well-known [BungeeCord](https://github.com/SpigotMC/BungeeCord) server teleportation suite.
 
