@@ -2,7 +2,8 @@ Waterfall
 =========
 
 > [!CAUTION]
-> This project has reached end of life and is no longer maintained.  
+> This project has reached end of life and is no longer maintained.
+> I am maintaining this fork for my server network [AmpCraft](https://www.ampcraft.org/), I cant promise long term support but i will continue to try my best.
 > We recommend you transition to [Velocity](https://papermc.io/software/velocity). For more information, see the [announcement](https://forums.papermc.io/threads/1088/).
 
 Waterfall is a fork of the well-known [BungeeCord](https://github.com/SpigotMC/BungeeCord) server teleportation suite.
@@ -24,7 +25,7 @@ Waterfall will still track upstream BungeeCord and merge changes as needed.
 
 ## How To (Server Admins)
 
-Download a copy of Waterfall.jar from our homepage here: [Waterfall](https://papermc.io/downloads/waterfall)
+Download a depricated copy of Waterfall.jar from the paper homepage here: [Waterfall](https://papermc.io/downloads/waterfall)
 
 Waterfall requires **Java 8** or above.
 
@@ -75,11 +76,6 @@ Clone this repo, run `./waterfall b` from *bash*, get jar from Waterfall-Proxy/b
 ## Join us
 
 * Feel free to open a PR! We accept contributions.
-* Join us on [Discord](https://discord.gg/papermc).
-* Visit our forums (https://forums.papermc.io/).
+* Join us on [Discord](https://discord.ampcraft.org).
+* Visit our forums ([AmpCraft Forums](https://www.ampcraft.org/forum/)).
 
-## Special Thanks To
-
-![YourKit-Logo](https://yourkit.com/images/yklogo.png)
-
-[YourKit](https://yourkit.com/), makers of the outstanding Java profiler, supports open source projects of all kinds with their full-featured [Java](https://yourkit.com/features/) and [.NET](https://yourkit.com/dotnet/features/) application profilers. We thank them for granting Waterfall an OSS license so that we can make our software the best it can be.
